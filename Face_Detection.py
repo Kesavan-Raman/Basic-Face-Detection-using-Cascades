@@ -1,13 +1,12 @@
 '''
 Name : Kesavan R
-Reg No : 19MIM10086
 Subject : Computer Vision
 
 '''
 
 import cv2
 
-cascade_classifier = cv2.CascadeClassifier('haarcascades\haarcascade_frontalface_default.xml')
+cascade_classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
 
 while True:
